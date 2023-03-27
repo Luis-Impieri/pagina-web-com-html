@@ -1,0 +1,61 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>História dos Computadores e Introdução ao HTML</title>
+</head>
+<body>
+	<header>
+		<h1>História dos Computadores e Introdução ao HTML</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#intro">Introdução ao Conteúdo</a></li>
+			<li><a href="#primeiros-computadores">Os Primeiros Computadores</a></li>
+			<li><a href="#evolucao">Evolução dos Computadores</a></li>
+			<li><a href="#html">O que é HTML?</a></li>
+			<li><a href="#referencias">Referências</a></li>
+		</ul>
+	</nav>
+	<hr> <!-- Linha separadora -->
+	<main>
+		<section id="intro">
+			<h2>Introdução ao Conteúdo</h2>
+			<p>Antes de introduzir conceitos como HTML e outras linguagens de marcação, é preciso apresentar os conceitos de "cliente", "servidor" e "navegador", que são de suma importância para se entender como o trabalho das linguagens de marcação funcionam e como ambos interagem entre si.</p>
+            <p>O servidor (ou server) é o programa e banco de dados central que fornece serviços para o cliente(ou client) através da conexão com a internet fornecida pelo seu navegador(ou browser). Quando estamos ouvindo uma música no spotfy, por exemplo, o banco de dados central do servidor fornece os dados através da internet para que o cliente consuma, mesmo sem o mesmo possuir or arquivos. Obviamente funciona diferente com músicas baixadas via dowload.</p>
+            <p>A evolulção dos computadores e da tecnologia no geral permitiu avanços na forma como essa relação se dá, principalmente com o boom dos serviços de streaming. Com essa evolução, também vieram outras formas de controlar a relação servidor-clliente, como firewalls que bloqueiam invasores externos.</p>
+			<p><a href="#topo">(voltar)</a></p>
+		</section>
+		<section id="primeiros-computadores">
+			<h2>Os Primeiros Computadores</h2>
+			<p>Os primeiros computadores foram desenvolvidos no século XIX e início do século XX, mas foram os computadores eletrônicos na década de 1940 que mudaram a forma como pensamos sobre a computação. O ENIAC, desenvolvido pelos Estados Unidos durante a Segunda Guerra Mundial, foi o primeiro computador eletrônico.</p>
+			<p>Vale lembrar que, os primeiros computadores eram praticamente exclusivo para usos militares e grandes empresas. Seu peso de 30 toneladas em média e seu tamanho robusto, os impediam de serem simplesmente movidos ou usados em um cenário doméstico, principalmente por não terem muita utilidade para isso na época</p>
+			<p>Apesar de não serem de fato "computadores", vale citar máquinas que começaram com a ideia do que se tornariam os computadores no futuro, como a calculadora de Pascal (1646) ou a máquina analítica de Charles Badgge (1822). Como os primeiros computadores tinham a função basicamente de realizar operações matemáticas simples, não é incorreto dizer que eles eram nada mais do que uma evolução das calculadoras, que com o tempo foram ganhando novas formas e utilidades. </p>
+			<p><a href="#topo">(voltar)</a></p>
+		</section>
+		<section id="evolucao">
+			<h2>Evolução dos Computadores</h2>
+			<p>A evolução dos computadores se deu de forma exponencial, em menos de 100 anos eles foram de válvulas que realizavam praticamente o trabalho de uma calculadora, até a era atual com inteligências artificiais e microprocessadores. A evolução dessas máquinas é dividida em 5 gerações.</p>
+			<ul>
+				<li>Primeira geração (1940-1956): a primeira geração se due por máquinas gigantescas e com mais de 30 toneladas, que funcionavam através de válvulas e linguagem de máquina, usando cartões perfurados. O gigantesco consumo de energia, somado ao peso e tamanho, os tornava muito inconvenientes e impossíveis para uso doméstico. Seu maior marco foi a criação do ENIC (1945), o primeiro computador eletrônico.</li>
+				<li>Segunda geração (1956-1963): nessa geração, as válvulas foram substituídas por transistores, e o código agora era um código de montagem. Isso deixou as máquinas mais confiáveis e bem mais rápidas, além de mais leves, com cerca de 750kg "apenas".</li>
+				<li>Terceira geração (1964-1971): foi nessa geração que foram criados os primeiros circuitos integrados, que deixavam os computadores menores e mais baratos, facilitando ainda mais o seu uso, sem precisar desta vez de um maquinário inteiro apenas para move-lo de um lugar ao outro. Também foi a geração onde se criaram os primeiros sistemas operacionais, assim como a entrada de dados por dispositivos periféricos. Um marco importante da geração foi o lançamento do IBM system 360, lançado em 1964.</li>
+				<li>Quarta geração (1971-1989): existem divergências sobre esta geração, pois enquanto alguns a tratam como uma geração passada, com a atual sendo a quinta, alguns dizem que ainda estamos na quarta geração, e a quinta seria o futuro. Porém, considerando toda a evolução, é certo dizer que a quarta geração já é coisa do passado. Ela foi marcada pela criação dos microprocessadores em 1971, que permitiu colocar um computador inteiro em um único chip, permitindo assim o surgimento dos primeiros computadores pessoais, como o Apple 2. Também foi onde surgiram linguagens de programação como Python e JavaScript.</li>
+				<li>Quinta geração (1989-hoje em dia): a atual geração é marcada pelo avanço e estudo das inteligências artificais, que hoje cada vez mais se desenvolvem, como o famoso chat gpt. Além disso, temos a evolução do hardware, com computadores quânticos e micro-computadores, permitindo até a existência de máquinas como o Rapberry.Pi 4, que possui o tamanho de um cartão de crédito, porém é mais potente que um computador doméstico comum do começo dos anos 2010. É a era dos smartphones e da conexão mundial.</li>
+			</ul>
+			<p><a href="#topo">(voltar)</a></p>
+		</section>
+		<section id="html">
+			<h2>O que é HTML?</h2>
+			<p>HTML (Hypertext Markup Language) trata-se de uma linguagem de marcação, criada para gerar e exibir conteúdo na internet, seja por páginas web ou por aplicativos. Ela utiliza "tags" para indicar o conteúdo que deve ser exibido na tela, onde cada tag tem uma função, como (p) para parágrafos, (a) para inserir links ou (ol) para criar uma lista ordenada.</p>
+			<p>O responsável pela criação do HTML, foi Tim Berner-Lee, conhecido até hoje como o pai da web, por tambér ter sido responsável pela criação do World Wide Web, ou "www", que todos acessam hoje em dia. Desde sua criação em 1989, o HTML bem evoluindo para atender às novas e crescentes necessidades da internet.</p>
+			<p>Para criar uma página na web usan oHTML, é preciso un editor de texto para escrever o código, como o Visual Studio Code. O código precisa ser hospedado em um servidor e ter a extensão ".html" para que possa ser hospedado na web. Desta forma, é possível usar o html para criar e editar páginas na internet.</p>
+			<p><a href="#topo">(voltar)</a></p>
+		</section>
+	</main>
+	<footer>
+		<p>Referências:</p>
+		<ul>
+			<li><a href="https://blog.contmatic.com.br/evolucao-dos-computadores/">Indtroução dos primeiros computadores</a></li>
+			<li><a href="https://www.diferenca.com/evolucao-dos-computadores/">Gerações de computadores e seus marcos</a></li>
+			<li><a href="https://www.homehost.com.br/blog/tutoriais/o-que-e-html/">Introdução ao HTML e alguns conceitos importantes</a></li>
+		</ul>
